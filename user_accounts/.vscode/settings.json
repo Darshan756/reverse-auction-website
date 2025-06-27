@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/auction_env/bin/python",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/auction_env/lib/python3.12/site-packages"
+  ],
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.useLibraryCodeForTypes": true
+}
