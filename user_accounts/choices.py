@@ -7,3 +7,8 @@ class OrganizationTypes(models.TextChoices):
     PRIVATE_LIMITED = 'private_limited', 'Private Limited'
     PUBLIC_LIMITED = 'public_limited', 'Public Limited'
     NGO = 'ngo', 'NGO / Trust'
+
+
+class UserTypes(models.TextChoices):
+    BUYER =  'buyer' , 'Buyer'
+    VENDOR = 'vendor', 'Vendor'
